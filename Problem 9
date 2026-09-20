@@ -1,0 +1,15 @@
+class parent:
+    def respect(self):
+        print("Respect parents")
+class teacher:
+    def discipline(self):
+        print("Discipline is important in life ")
+class student(parent,teacher):
+    def listen(self):
+        print("follow your parents suggestions")
+s1=student()
+s1.respect()
+s1.discipline()
+s1.listen()
+
+            
